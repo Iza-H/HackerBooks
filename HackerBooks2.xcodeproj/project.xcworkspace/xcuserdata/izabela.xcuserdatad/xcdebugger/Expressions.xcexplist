@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AGTBookViewController.model.willset:AGTBookViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AGTLibrary.init(collection : [AGTBook]) -&gt; AGTLibrary:AGTLibrary.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "value">
+            </PersistentString>
+            <PersistentString
+               value = "value[i].title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AGTBookViewController.viewDidLoad() -&gt; ():AGTBookViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "decode(book : [String : AnyObject]) throws -&gt; AGTBook:JSONProcessing.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[JSONKeys.image_url.rawValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AGTBookViewController.switchChange(AnyObject) -&gt; ():AGTBookViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "takeFile(String) throws -&gt; NSData:JSONProcessing.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nameUrlParts[nameUrlParts.count-2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AGTBookViewController.updateUI() -&gt; ():AGTBookViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AGTBookViewController.updateUI(AGTBook) -&gt; ():AGTBookViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AGTLibraryTableViewController.modifiedFavouriteValue(Bool, book : AGTBook, controller : AGTBookViewController) -&gt; ():AGTLibraryTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "decode(booksCollection : [[String : AnyObject]]) -&gt; [AGTBook]:JSONProcessing.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AppDelegate.createModel(NSData) throws -&gt; ():AppDelegate.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
