@@ -23,8 +23,19 @@ Un lector de libros para iPhone & iPad
 
 **AGTLibraryBook** - representa un conjunto de los libros, tiene una estructura:
 
-- *Tags* : [String : Array<AGTBook>] - es un dicionario donde la clave es un nombre del tag y los valores son los libros que tienen este tag 
+- *Tags* : [String : Array<AGTBook>] - es un dicionario donde la clave es un nombre del tag y los valores (dentro de Array) son los libros que tienen este tag 
 
+##Conroladores
+**AGTBookViewController** - controlador de la vista que presenta los detalles de un libro
+
+**AGTLibraryTableViewController** - controlador de una tabla principal con todos los libros
+
+**AGTBookTableViewCell** - controlador de una celda personalizada de la tabla con los libros
+
+**AGTSimplePDFViewController** - controlador de la vista con pdf reader
+
+##Vista
+La vista esta creada en el Main.storyboard
 
 
 ## Preguntas
