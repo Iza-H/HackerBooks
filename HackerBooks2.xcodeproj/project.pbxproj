@@ -14,6 +14,7 @@
 		FD0D7BAF1C1DE64C001BD801 /* AGTBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BAE1C1DE64C001BD801 /* AGTBookTableViewCell.swift */; };
 		FD0D7BB11C1DFE3A001BD801 /* AGTSimplePDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BB01C1DFE3A001BD801 /* AGTSimplePDFViewController.swift */; };
 		FD0D7BB41C1E264E001BD801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0D7BB21C1E264E001BD801 /* Main.storyboard */; };
+		FD0D7BB61C1E35D5001BD801 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BB51C1E35D5001BD801 /* README.md */; };
 		FD60449F1C1A4FBA00154D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60449E1C1A4FBA00154D09 /* AppDelegate.swift */; };
 		FD6044A11C1A4FBA00154D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6044A01C1A4FBA00154D09 /* ViewController.swift */; };
 		FD6044A61C1A4FBA00154D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6044A51C1A4FBA00154D09 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		FD0D7BAE1C1DE64C001BD801 /* AGTBookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTBookTableViewCell.swift; sourceTree = "<group>"; };
 		FD0D7BB01C1DFE3A001BD801 /* AGTSimplePDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTSimplePDFViewController.swift; sourceTree = "<group>"; };
 		FD0D7BB31C1E264E001BD801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0D7BB51C1E35D5001BD801 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FD60449B1C1A4FBA00154D09 /* HackerBooks2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerBooks2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD60449E1C1A4FBA00154D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD6044A01C1A4FBA00154D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		FD6044921C1A4FB900154D09 = {
 			isa = PBXGroup;
 			children = (
+				FD0D7BB51C1E35D5001BD801 /* README.md */,
 				FD60449D1C1A4FBA00154D09 /* HackerBooks2 */,
 				FD6044B21C1A4FBA00154D09 /* HackerBooks2Tests */,
 				FD60449C1C1A4FBA00154D09 /* Products */,
@@ -236,6 +239,7 @@
 			files = (
 				FD6044A11C1A4FBA00154D09 /* ViewController.swift in Sources */,
 				FD0D7BA91C1C94C2001BD801 /* AGTLibraryTableViewController.swift in Sources */,
+				FD0D7BB61C1E35D5001BD801 /* README.md in Sources */,
 				FD0D7BB11C1DFE3A001BD801 /* AGTSimplePDFViewController.swift in Sources */,
 				FD6044C01C1A579800154D09 /* AGTLibrary.swift in Sources */,
 				FD0D7BA41C1C52B3001BD801 /* AGTBook.swift in Sources */,
