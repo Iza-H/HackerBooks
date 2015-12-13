@@ -160,6 +160,14 @@ class AGTLibraryTableViewController: UITableViewController, AGTLibraryDelegate{
             let book = model?.getBook((ip?.section)!, index: (ip?.row)!)
             bookVC?.delegate = self
             bookVC?.model = book
+           /* if let indexPath = self.tableView.indexPathForSelectedRow {
+                let book = model!.getBook((indexPath.section), index: (indexPath.row))
+                let controler = (segue.destinationViewController as! UINavigationController).topViewController as! AGTBookViewController
+                controler.model = book
+                 }*/
+                //controler.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem()
+                //controler.navigationItem.leftItemsSupplementBackButton = true
+          //  }
             
         
         
@@ -174,6 +182,10 @@ class AGTLibraryTableViewController: UITableViewController, AGTLibraryDelegate{
     func modifiedFavouriteValue(value: Bool, book: AGTBook, controller: AGTBookViewController){
         self.model?.setFavourite(value, book: book);
         self.tableView?.reloadData()
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return true
     }
     
 

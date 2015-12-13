@@ -13,9 +13,9 @@
 		FD0D7BAD1C1DA201001BD801 /* AGTBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BAC1C1DA201001BD801 /* AGTBookViewController.swift */; };
 		FD0D7BAF1C1DE64C001BD801 /* AGTBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BAE1C1DE64C001BD801 /* AGTBookTableViewCell.swift */; };
 		FD0D7BB11C1DFE3A001BD801 /* AGTSimplePDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0D7BB01C1DFE3A001BD801 /* AGTSimplePDFViewController.swift */; };
+		FD0D7BB41C1E264E001BD801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0D7BB21C1E264E001BD801 /* Main.storyboard */; };
 		FD60449F1C1A4FBA00154D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD60449E1C1A4FBA00154D09 /* AppDelegate.swift */; };
 		FD6044A11C1A4FBA00154D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6044A01C1A4FBA00154D09 /* ViewController.swift */; };
-		FD6044A41C1A4FBA00154D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6044A21C1A4FBA00154D09 /* Main.storyboard */; };
 		FD6044A61C1A4FBA00154D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6044A51C1A4FBA00154D09 /* Assets.xcassets */; };
 		FD6044A91C1A4FBA00154D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6044A71C1A4FBA00154D09 /* LaunchScreen.storyboard */; };
 		FD6044B41C1A4FBA00154D09 /* HackerBooks2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6044B31C1A4FBA00154D09 /* HackerBooks2Tests.swift */; };
@@ -39,10 +39,10 @@
 		FD0D7BAC1C1DA201001BD801 /* AGTBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTBookViewController.swift; sourceTree = "<group>"; };
 		FD0D7BAE1C1DE64C001BD801 /* AGTBookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTBookTableViewCell.swift; sourceTree = "<group>"; };
 		FD0D7BB01C1DFE3A001BD801 /* AGTSimplePDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGTSimplePDFViewController.swift; sourceTree = "<group>"; };
+		FD0D7BB31C1E264E001BD801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD60449B1C1A4FBA00154D09 /* HackerBooks2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerBooks2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD60449E1C1A4FBA00154D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD6044A01C1A4FBA00154D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FD6044A31C1A4FBA00154D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD6044A51C1A4FBA00154D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6044A81C1A4FBA00154D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6044AA1C1A4FBA00154D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 		FD60449D1C1A4FBA00154D09 /* HackerBooks2 */ = {
 			isa = PBXGroup;
 			children = (
+				FD0D7BB21C1E264E001BD801 /* Main.storyboard */,
 				FD0D7BA51C1C9436001BD801 /* Controllers */,
 				FD6044BE1C1A577300154D09 /* Models */,
 				FD60449E1C1A4FBA00154D09 /* AppDelegate.swift */,
 				FD6044A01C1A4FBA00154D09 /* ViewController.swift */,
-				FD6044A21C1A4FBA00154D09 /* Main.storyboard */,
 				FD6044A51C1A4FBA00154D09 /* Assets.xcassets */,
 				FD6044A71C1A4FBA00154D09 /* LaunchScreen.storyboard */,
 				FD6044AA1C1A4FBA00154D09 /* Info.plist */,
@@ -214,9 +214,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0D7BB41C1E264E001BD801 /* Main.storyboard in Resources */,
 				FD6044A91C1A4FBA00154D09 /* LaunchScreen.storyboard in Resources */,
 				FD6044A61C1A4FBA00154D09 /* Assets.xcassets in Resources */,
-				FD6044A41C1A4FBA00154D09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +265,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD6044A21C1A4FBA00154D09 /* Main.storyboard */ = {
+		FD0D7BB21C1E264E001BD801 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD6044A31C1A4FBA00154D09 /* Base */,
+				FD0D7BB31C1E264E001BD801 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

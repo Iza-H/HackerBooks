@@ -32,10 +32,13 @@ class AGTBookViewController: UIViewController {
         titleLabel.text = model?.title
         authorsLabel.text = model?.authors.joinWithSeparator(", ")
         
-
-        if let img = UIImage(data: (model?.image)!){
-            image.image = img
+        if let _ = model?.image{
+            if let img = UIImage(data: (model?.image)!){
+                image.image = img
+            }
         }
+
+       
         
         
         
@@ -86,6 +89,10 @@ class AGTBookViewController: UIViewController {
         }
         
         
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
     }
    
 
