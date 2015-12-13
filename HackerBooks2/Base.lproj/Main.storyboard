@@ -227,51 +227,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UB7-eW-Fhp">
-                                <rect key="frame" x="0.0" y="64" width="607" height="543"/>
-                                <subviews>
-                                    <webView contentMode="scaleAspectFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siB-h4-UrC">
-                                        <rect key="frame" x="0.0" y="0.0" width="607" height="543"/>
-                                        <animations/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="543" id="8Ja-Ma-vpO"/>
-                                            <constraint firstAttribute="width" constant="607" id="MC9-hG-JKr"/>
-                                        </constraints>
-                                    </webView>
-                                </subviews>
+                            <webView contentMode="scaleAspectFit" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="siB-h4-UrC">
+                                <rect key="frame" x="-4" y="29" width="607" height="543"/>
                                 <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="top" id="2hk-xh-W3E"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="top" id="2oU-Re-eR1"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leading" id="4ag-A5-1zM"/>
-                                    <constraint firstAttribute="bottom" secondItem="siB-h4-UrC" secondAttribute="bottom" id="6YO-fT-EuX"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="bottom" secondItem="UB7-eW-Fhp" secondAttribute="bottomMargin" id="8NB-Bj-TDP"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leadingMargin" id="8gc-g6-e4h"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="top" id="FvG-fU-DdZ"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leading" id="H7h-XN-2GZ"/>
-                                    <constraint firstAttribute="bottom" secondItem="siB-h4-UrC" secondAttribute="bottom" id="KgX-rG-VSw"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leading" id="MDd-U6-ivh"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leading" id="PGz-0M-eTq"/>
-                                    <constraint firstAttribute="bottom" secondItem="siB-h4-UrC" secondAttribute="bottom" id="XN8-ZD-GLw"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="centerX" secondItem="UB7-eW-Fhp" secondAttribute="centerX" id="Y5u-dY-kFe"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="trailing" secondItem="UB7-eW-Fhp" secondAttribute="trailingMargin" id="agk-YB-Y9y"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="top" id="cNi-gV-9NK"/>
-                                    <constraint firstAttribute="trailing" secondItem="siB-h4-UrC" secondAttribute="trailing" id="dH8-Mo-fEV"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="centerY" secondItem="UB7-eW-Fhp" secondAttribute="centerY" id="duh-GH-Qb1"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="leading" secondItem="UB7-eW-Fhp" secondAttribute="leading" id="gFD-VC-fl3"/>
-                                    <constraint firstAttribute="trailing" secondItem="siB-h4-UrC" secondAttribute="trailing" id="lz8-Qv-nzd"/>
-                                    <constraint firstAttribute="trailing" secondItem="siB-h4-UrC" secondAttribute="trailing" id="pwJ-Tj-E3Q"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="top" id="ycw-0m-1wG"/>
-                                    <constraint firstItem="siB-h4-UrC" firstAttribute="top" secondItem="UB7-eW-Fhp" secondAttribute="topMargin" id="yvJ-CZ-cog"/>
+                                    <constraint firstAttribute="height" constant="543" id="8Ja-Ma-vpO"/>
+                                    <constraint firstAttribute="width" constant="607" id="MC9-hG-JKr"/>
                                 </constraints>
-                            </stackView>
+                            </webView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="UB7-eW-Fhp" firstAttribute="top" secondItem="0Ko-Nb-z29" secondAttribute="bottom" constant="44" id="DVt-eq-jTF"/>
-                            <constraint firstItem="UB7-eW-Fhp" firstAttribute="leading" secondItem="ofM-Qx-Wy9" secondAttribute="leading" id="jXk-E2-d0d"/>
+                            <constraint firstItem="siB-h4-UrC" firstAttribute="centerX" secondItem="ofM-Qx-Wy9" secondAttribute="centerX" id="aLh-aj-1LG"/>
+                            <constraint firstItem="siB-h4-UrC" firstAttribute="centerY" secondItem="ofM-Qx-Wy9" secondAttribute="centerY" id="ncF-QW-L1n"/>
                         </constraints>
                     </view>
                     <connections>
